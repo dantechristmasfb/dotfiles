@@ -15,3 +15,7 @@ $BINDIR/chezmoi init $GITHUB_USERNAME
 
 echo "[APPLY] apply dotfiles"
 $BINDIR/chezmoi apply
+
+source ~/.zshrc
+git config --global user.name "Josh Sullivan"
+git config --global user.email "joshuasullivan@fb.com"
